@@ -3,9 +3,11 @@ body{
 }
 
 .profileimage{
-    border: 10px solid #322645;
+    box-shadow: 0 6px 45px 0 rgba(14, 75, 126, 0.2), 0 6px 45px 0 rgba(201, 8, 245, 0.5);
     height: 300px;
     width: 300px;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
 }
 .btn{
     background-image: linear-gradient(-225deg,#4e2259,#2d7585,#4e2259);
@@ -27,12 +29,14 @@ body{
 }
 
 .hovertext:hover{
-    color: rgb(59, 175, 253);
+    text-decoration: underline;
+    font-size: 15px;
 }
 .box{
 }
 .box:hover {
-    box-shadow: 10px 0 20px rgba(222, 33, 190,.2); 
+    border: 5px solid transparent;
+    box-shadow: 0 16px 25px 0 rgba(42, 16, 48, 0.2), 0 16px 25px 0 rgba(144, 16, 173, 0.50);
   }
 
 .btn:hover{
