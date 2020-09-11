@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(-225deg,#4e2259,#2d7585,#4e2259);
+    background-image: linear-gradient(-225deg,#2c133d,#2e2d45,#2e2d45);
 }
 
 .profileimage{
@@ -14,7 +14,7 @@ body{
 }
 
 .circle{
-    border: 10px solid white;
+    box-shadow: 0 16px 15px 0 rgba(42, 16, 48, 0.2), 0 16px 15px 0 rgba(144, 16, 173, 0.50);
     height: 175px;
     width: 175px;
     background-image: linear-gradient(-225deg,#2d7585,#4e2259);
@@ -23,8 +23,8 @@ body{
 }
 
 .stackcircle{
-    height: 120px;
-    width: 120px;
+    height: 150px;
+    width: 150px;
     margin: 2%;
 }
 
@@ -41,5 +41,9 @@ body{
 
 .btn:hover{
     background-image: linear-gradient(rgb(39, 142, 211),rgb(68, 18, 78));
+}
+
+.text-shadow{
+    text-shadow: 1px 3px #910e91;
 }
 
