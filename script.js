@@ -3,7 +3,7 @@ GitHubCalendar(".calendar", "sanjaypatel29",
         responsive: true
     });
 
-//For Changing the texts inside the changingRoles Div
+
 let i = 0
 const profession = [ ' Full Stack Developer','Problem Solver','Web Designer', 'Continuos Learner']
 
