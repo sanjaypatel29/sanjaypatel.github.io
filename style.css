@@ -23,9 +23,9 @@ body{
 }
 
 .stackcircle{
-    height: 150px;
-    width: 150px;
-    margin: 2%;
+    height: 80px;
+    width: 80px;
+    margin: 5%;
 }
 
 .hovertext:hover{
